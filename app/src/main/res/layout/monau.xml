@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="Euro Food"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:onClick="BackHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/monau_rec"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout2"-->
+<!--        android:layout_width="415dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/monau_rec"-->
+<!--        app:layout_constraintVertical_bias="0.956">-->
+
+<!--        <ImageButton-->
+<!--            android:onClick="favourite"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="56dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/search_bg"-->
+<!--            android:padding="10dp"-->
+<!--            android:src="@drawable/baseline_favorite_24" />-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="56dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/search_bg"-->
+<!--            android:padding="10dp"-->
+<!--            android:src="@drawable/baseline_qr_code_24" />-->
+
+<!--        <ImageButton-->
+<!--            android:onClick="home"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="56dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/search_bg"-->
+<!--            android:padding="10dp"-->
+<!--            android:src="@drawable/baseline_home_24" />-->
+
+<!--        <ImageButton-->
+<!--            android:onClick="notify"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="56dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/search_bg"-->
+<!--            android:padding="10dp"-->
+<!--            android:src="@drawable/baseline_notifications_24" />-->
+
+<!--        <ImageButton-->
+<!--            android:onClick="profile"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="56dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/search_bg"-->
+<!--            android:padding="10dp"-->
+<!--            android:src="@drawable/baseline_person" />-->
+<!--    </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

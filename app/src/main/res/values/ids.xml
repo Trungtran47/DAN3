@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home_product_rec" type="id" />
+    <item name="home_hor_rec" type="id" />
+</resources>
